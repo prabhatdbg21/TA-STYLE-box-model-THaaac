@@ -1,0 +1,120 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*  custom styles */
+h1{
+    font-size: 70px;
+    text-align: center;
+    margin: 50px 100px;
+}
+.line{
+    width: 50%;
+    border: 1px dashed grey;
+    margin: 40px auto;
+}
+
+.heading{
+    font-size: 40px; 
+    text-align: center;
+    margin: 40px 0;
+}
+.box1{
+    width: 150px;
+    height: 150px;
+    background: aqua;
+    box-shadow: inset 0 0 0 15px cornflowerblue;
+    border: 3px solid black;
+    outline: 15px solid palevioletred;
+    margin: 30px auto;
+}
+.circle{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: aqua;
+    display: inline-block;
+}
+p{
+    display: inline-block;
+    margin-right: 18px;
+}
+.circle4{
+    text-align: center;
+}
+.a{
+    background-color: cornflowerblue;
+}
+.b{
+    background-color: black;
+}
+.c{
+    background-color: palevioletred;
+}
+.subheading{
+    font-size: 30px;
+    text-align: center;
+}
+.box{
+    width: 180px;
+    height: 100px;
+    background-color: gray;
+    margin: 10px;
+    display: inline-block;
+}
+.box3{
+    width: 600px;
+    border: 1px solid black;
+    margin: 20px auto;
+}
+.border{
+    border: 1px solid black;
+}
+.border1{
+    border: 1px solid black ;
+    box-sizing: border-box;
+}
